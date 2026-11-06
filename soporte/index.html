@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<title>Soporte · Keepery</title>
+<meta name="description" content="Ayuda de Keepery: actualizar, contraseña maestra olvidada, clave antigua y exportar.">
+<meta name="theme-color" content="#FE3665">
+<link rel="icon" href="../recursos/icono.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../recursos/estilos.css">
+<link rel="alternate" hreflang="es" href="https://keepery.io/soporte/">
+<link rel="alternate" hreflang="en" href="https://keepery.io/en/support/">
+</head>
+<body>
+<header><div class="ancho">
+<a class="marca" href="../"><img src="../recursos/icono.svg" alt="" width="28" height="28">Keepery</a>
+<nav><a href="../privacidad/">Privacidad</a><a href="../soporte/" aria-current="page">Soporte</a><a href="../en/support/" lang="en" hreflang="en">English</a></nav>
+</div></header>
+<main><div class="ancho">
+<h1>Soporte</h1>
+<p class="entrada">Las dudas más comunes. Si no encuentras la tuya, escribe a <a class="pendiente" href="mailto:{{CORREO_DE_SOPORTE}}">{{CORREO_DE_SOPORTE}}</a>.</p>
+<div class="aviso"><strong>Nunca nos envíes tu contraseña maestra ni otras contraseñas.</strong> No las necesitamos, ni podríamos usarlas para abrir tu bóveda.</div>
+<details open><summary>Vengo de una versión anterior de Keepery. ¿Qué pasa al actualizar?</summary><div><p>Tus cuentas se traen solas. Al abrir la app nueva:</p><ol><li>Keepery encuentra tus cuentas y las abre sin preguntarte nada.</li><li>Creas tu contraseña maestra. Sustituye a la clave larga de antes y es la única que tendrás que recordar.</li><li>Keepery comprueba las cuentas una a una.</li></ol><p>Tu Keepery anterior no se toca. Ten en cuenta que la versión nueva necesita iOS o iPadOS 18; si tu dispositivo no puede actualizarse, la versión que tienes sigue funcionando.</p></div></details>
+
+<details><summary>He olvidado mi contraseña maestra</summary><div><p><strong>No se puede recuperar, ni nosotros podemos.</strong> No se guarda en ningún sitio y no tenemos ningún servidor con tus datos. Sin ella, la bóveda no se puede abrir.</p><p>Si todavía entras con Face ID, Touch ID o el código del dispositivo, aprovecha para consultar tus entradas y cambiar o anotar lo importante mientras la app no te pida la contraseña. Para exportar sí hace falta.</p><p>Una copia que hayas exportado antes se abre con la contraseña maestra que tenía entonces.</p></div></details>
+
+<details><summary>Keepery me pide mi clave antigua</summary><div><p>Suele pasar al restaurar el dispositivo desde una copia: tus cuentas están ahí, pero el dispositivo ya no recuerda la clave con la que se guardaron.</p><p>Escribe la clave maestra que tu Keepery anterior te pidió apuntar: 24 caracteres, con mayúsculas, minúsculas y signos. Tus cuentas solo se leen; no se cambian.</p><p><strong>¿No la encuentras?</strong> Mientras tanto, tus cuentas antiguas no se tocan. Puedes empezar con una bóveda vacía y recuperarlas después desde Ajustes, cuando aparezca la clave. No podemos recuperarla por ti.</p></div></details>
+
+<details><summary>¿Cómo exporto mis datos?</summary><div><p>En Ajustes, elige <strong>Exportar</strong> y confirma con tu contraseña maestra. Hay dos formatos:</p><ul><li><strong>Copia cifrada.</strong> Se abre con tu contraseña maestra, en Keepery o en otras apps compatibles con KeePass, porque es un formato abierto.</li><li><strong>Hoja de cálculo (CSV).</strong> <strong>No va cifrada:</strong> cualquiera que la abra verá todas tus contraseñas. Bórrala en cuanto termines.</li></ul></div></details>
+
+<details><summary>¿Cómo paso mis contraseñas a otro dispositivo?</summary><div><p>Esta versión no sincroniza: cada dispositivo guarda su bóveda. Exporta una copia cifrada, llévala al otro dispositivo y, al abrir Keepery allí por primera vez, elige abrir tu copia cifrada. Los cambios posteriores no pasan solos de uno a otro.</p></div></details>
+
+<details><summary>¿Puedo traer mis contraseñas desde otro sitio?</summary><div><p>Sí, en Ajustes › Importar, desde un CSV de Contraseñas de Apple o de Chrome. Ese CSV no va cifrado: bórralo cuando termines.</p></div></details>
+
+<h2>Contacto</h2>
+<p>Escribe a <a class="pendiente" href="mailto:{{CORREO_DE_SOPORTE}}">{{CORREO_DE_SOPORTE}}</a>. Lo que nos cuentes se trata como dice la <a href="../privacidad/">política de privacidad</a>.</p>
+</div></main>
+<footer><div class="ancho">
+<p>Keepery no tiene cookies, rastreadores ni analíticas, tampoco en esta web.</p>
+<p>© 2026 Jorge Sanchis</p>
+</div></footer>
+</body>
+</html>

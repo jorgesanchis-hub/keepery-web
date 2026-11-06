@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<title>Support · Keepery</title>
+<meta name="description" content="Keepery help: updating, a forgotten master password, your old key and exporting.">
+<meta name="theme-color" content="#FE3665">
+<link rel="icon" href="../../recursos/icono.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../recursos/estilos.css">
+<link rel="alternate" hreflang="es" href="https://keepery.io/soporte/">
+<link rel="alternate" hreflang="en" href="https://keepery.io/en/support/">
+</head>
+<body>
+<header><div class="ancho">
+<a class="marca" href="../../en/"><img src="../../recursos/icono.svg" alt="" width="28" height="28">Keepery</a>
+<nav><a href="../../en/privacy/">Privacy</a><a href="../../en/support/" aria-current="page">Support</a><a href="../../soporte/" lang="es" hreflang="es">Español</a></nav>
+</div></header>
+<main><div class="ancho">
+<h1>Support</h1>
+<p class="entrada">The most common questions. If yours isn’t here, write to <a class="pendiente" href="mailto:{{CORREO_DE_SOPORTE}}">{{CORREO_DE_SOPORTE}}</a>.</p>
+<div class="aviso"><strong>Never send us your master password or any other password.</strong> We don’t need them, and we couldn’t use them to open your vault.</div>
+<details open><summary>I’m coming from an earlier version of Keepery. What happens when I update?</summary><div><p>Your accounts come along by themselves. When you open the new app:</p><ol><li>Keepery finds your accounts and opens them without asking you anything.</li><li>You create your master password. It replaces the long key you had before and is the only one you’ll need to remember.</li><li>Keepery checks your accounts one by one.</li></ol><p>Your previous Keepery is left untouched. Note that the new version requires iOS or iPadOS 18; if your device can’t update, the version you have keeps working.</p></div></details>
+
+<details><summary>I’ve forgotten my master password</summary><div><p><strong>It can’t be recovered, not even by us.</strong> It isn’t stored anywhere and we have no server with your data. Without it, the vault can’t be opened.</p><p>If you can still get in with Face ID, Touch ID or your device passcode, use that time to look up your entries and change or note down what matters, while the app isn’t asking for the password. Exporting does require it.</p><p>A copy you exported earlier opens with the master password it had at the time.</p></div></details>
+
+<details><summary>Keepery is asking for my old key</summary><div><p>This often happens after restoring the device from a backup: your accounts are there, but the device no longer remembers the key they were saved with.</p><p>Type the master key your previous Keepery asked you to write down: 24 characters, with uppercase, lowercase and symbols. Your accounts are only read, not changed.</p><p><strong>Can’t find it?</strong> Your old accounts stay untouched in the meantime. You can start with an empty vault and recover them later from Settings, when the key turns up. We can’t recover it for you.</p></div></details>
+
+<details><summary>How do I export my data?</summary><div><p>In Settings, choose <strong>Export</strong> and confirm with your master password. There are two formats:</p><ul><li><strong>Encrypted copy.</strong> It opens with your master password, in Keepery or in other KeePass-compatible apps, because the format is open.</li><li><strong>Spreadsheet (CSV).</strong> <strong>It isn’t encrypted:</strong> anyone who opens it will see all your passwords. Delete it as soon as you’re done.</li></ul></div></details>
+
+<details><summary>How do I move my passwords to another device?</summary><div><p>This version doesn’t sync: each device keeps its own vault. Export an encrypted copy, take it to the other device and, when you first open Keepery there, choose to open your encrypted copy. Later changes don’t carry over by themselves.</p></div></details>
+
+<details><summary>Can I bring my passwords from somewhere else?</summary><div><p>Yes, in Settings › Import, from a CSV from Apple Passwords or Chrome. That CSV isn’t encrypted: delete it when you’re done.</p></div></details>
+
+<h2>Contact</h2>
+<p>Write to <a class="pendiente" href="mailto:{{CORREO_DE_SOPORTE}}">{{CORREO_DE_SOPORTE}}</a>. What you tell us is handled as described in the <a href="../privacy/">privacy policy</a>.</p>
+</div></main>
+<footer><div class="ancho">
+<p>Keepery has no cookies, trackers or analytics, on this website either.</p>
+<p>© 2026 Jorge Sanchis</p>
+</div></footer>
+</body>
+</html>
